@@ -7,6 +7,15 @@
     <link rel="icon" href="./assets/ico.png">
     <title>Calculator App</title>
     <link rel="stylesheet" href="./index.css">
+    <script>
+        // check that service worker are supported
+        if('serviceWorker' in navigator){
+            // use the window load event to keep the page load perfomant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js');
+            })
+        }
+    </script>
 </head>
 <body>
     

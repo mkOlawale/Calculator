@@ -1,0 +1,30 @@
+{
+    "name":"iBrain Calculator",
+    "short_name":"Calculator",
+
+    "icons": [
+        {
+            "src": "./assets/ico.png",
+            "size": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./assets/ico-384.png",
+            "size": "284x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./assets/ico-512.png",
+            "size": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+}
